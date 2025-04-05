@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  width: 100vw;
+  height: 100vh;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    
+  }
+  .topmost {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+  p {
+    margin: 0s;
+    padding: 0px;
+  }
+  .rightlinks {
+    display: flexs;
+    gap: 20px;
+  
+  }
+  .mid {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    
+  }
+  .title {
+    font-size: 35px;
+    font-weight: 900;
+  }
+  .sub {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    padding: 5px;
+    border-color: #3882F6;
+  }
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  img {
+    height: 200px;
+    width: 400px;
+    flex: 1s;
+  }
+  .middle1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+  }
+  .img2 {
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+    border-color: #3882F6;
+  }
+  .title2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .down {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle2 {
+    background-color: rgb(141, 167, 167);
+    display: flex;
+    justify-content: center;
+  }
+  .third {
+    padding: 100px;
+    max-width: 500px;
+    
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 156, 107);
+  }
+  .bottom2 {
+    display: flex;
+    background-color: #3882F6;
+    max-width: 3000px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .signup2 {
+    border-color: white;
+    height: 40px;
+    margin-top: 30px;
+  }
+  .footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+  }
+ 
+  
+ 
