@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    font-family: 'Roboto';
     
     
   }
@@ -31,6 +32,8 @@ body {
   p {
     margin: 0s;
     padding: 0px;
+    font-size: 24px;
+    color: #f9faf8;
   }
   .rightlinks {
     display: flexs;
@@ -43,16 +46,19 @@ body {
     align-items: stretch;
     justify-content: center;
     gap: 50px;
-    padding: 100px;
+    padding: 50px;
+    
     
   }
   .title {
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
   }
-  .sub {
-    font-size: 13px;
+  .sub, .rightlinks {
+    font-size: 18px;
     margin-bottom: 0;
+    color: #e5e7eb;
   }
   button {
     background-color: #3882F6;
@@ -100,12 +106,18 @@ body {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    
   }
   .third {
     padding: 100px;
-    max-width: 500px;
-    
+    max-width: 630px;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
   }
+ 
   .bottom {
     display: flex;
     justify-content: center;
@@ -128,6 +140,10 @@ body {
     display: flex;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Roboto';
+    font-size: 18px;
   }
  
   
