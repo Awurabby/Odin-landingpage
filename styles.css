@@ -19,6 +19,7 @@ body {
     background-color: #1F2937;
     color: white;
     
+    
   }
   .topmost {
     display: flex;
@@ -96,7 +97,7 @@ body {
     align-items: center;
   }
   .middle2 {
-    background-color: rgb(141, 167, 167);
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
   }
@@ -108,7 +109,7 @@ body {
   .bottom {
     display: flex;
     justify-content: center;
-    background-color: rgb(188, 156, 107);
+    background-color: white;
   }
   .bottom2 {
     display: flex;
@@ -116,11 +117,11 @@ body {
     max-width: 3000px;
     margin: 100px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
   }
   .signup2 {
     border-color: white;
-    height: 40px;
+    height: 30px;
     margin-top: 30px;
   }
   .footer {
